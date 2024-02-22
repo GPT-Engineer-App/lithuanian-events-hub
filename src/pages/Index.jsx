@@ -7,12 +7,7 @@ const Index = () => {
       <Heading as="h1" size="2xl" textAlign="center">
         Lietuvos Renginių Portalas
       </Heading>
-      <Button leftIcon={<FaComments />} colorScheme="teal" variant="solid">
-        Komentuoti
-      </Button>
-      <Button leftIcon={<FaEnvelope />} colorScheme="teal" variant="solid">
-        Siųsti Žinutę
-      </Button>
+
       <Text textAlign="center">Norėdami prisidėti prie mūsų, prašome prisijungti arba užsiregistruoti.</Text>
       {/* Šis mygtukas yra tik vizualinis elementas, nes faktinė PayPal integracija negali būti atlikta be serverio pusės programavimo. */}
       <Link href="https://www.paypal.com/donate?business=senderlithuania%40gmail.com" isExternal>
