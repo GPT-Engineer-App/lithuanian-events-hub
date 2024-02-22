@@ -11,7 +11,19 @@ const AdminLogin = () => {
         <FormLabel>Password</FormLabel>
         <Input type="password" />
       </FormControl>
-      <Button colorScheme="blue" width="full">
+      <Button
+        colorScheme="blue"
+        width="full"
+        onClick={() => {
+          const emailInput = document.getElementById("email").value;
+          const passwordInput = document.getElementById("password").value;
+          if (emailInput === "tomaajuodiska2@gmail.com" && passwordInput === "Xal53045") {
+            console.log("Admin successfully logged in");
+          } else {
+            console.log("Admin login failed: Incorrect credentials");
+          }
+        }}
+      >
         Admin Login
       </Button>
     </VStack>
