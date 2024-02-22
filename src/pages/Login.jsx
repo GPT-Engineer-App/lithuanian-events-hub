@@ -23,15 +23,15 @@ function Login() {
     <Box>
       <VStack spacing={4} as="form" onSubmit={handleLogin}>
         <FormControl id="email" isRequired>
-          <FormLabel>Email</FormLabel>
+          <FormLabel>El. paštas</FormLabel>
           <Input type="email" />
         </FormControl>
         <FormControl id="password" isRequired>
-          <FormLabel>Password</FormLabel>
+          <FormLabel>Slaptažodis</FormLabel>
           <Input type="password" />
         </FormControl>
         <Button type="submit" colorScheme="blue">
-          Login
+          Prisijungti
         </Button>
       </VStack>
     </Box>

@@ -1,15 +1,13 @@
-import React from 'react';
-import { Box, Heading, Text } from '@chakra-ui/react';
+import React from "react";
+import { Box, Heading, Text } from "@chakra-ui/react";
 
 function AIDetails() {
   return (
     <Box>
       <Heading as="h1" size="xl" mb={4}>
-        AI Details
+        AI Informacija
       </Heading>
-      <Text fontSize="lg">
-        Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.
-      </Text>
+      <Text fontSize="lg">Dirbtinis intelektas (AI) reiškia žmogaus intelekto simuliaciją mašinose, kurios yra programuojamos mąstyti kaip žmonės ir imituoti jų veiksmus. Šis terminas taip pat gali būti pritaikytas bet kuriai mašinai, kuri pasižymi savybėmis, susijusiomis su žmogaus protu, tokiomis kaip mokymasis ir problemų sprendimas.</Text>
     </Box>
   );
 }

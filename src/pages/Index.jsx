@@ -10,13 +10,12 @@ const Index = () => {
   return (
     <VStack spacing={4} align="stretch">
       <Heading as="h1" size="2xl" textAlign="center">
-        Naujienos
+        Naujienų Portalas
       </Heading>
 
       <Text textAlign="center">Norėdami prisidėti prie mūsų, prašome prisijungti arba užsiregistruoti.</Text>
-      {/* Šis mygtukas yra tik vizualinis elementas, nes faktinė PayPal integracija negali būti atlikta be serverio pusės programavimo. */}
       <Button as="a" href="/register" colorScheme="blue" variant="solid">
-        Registracija
+        Užsiregistruoti
       </Button>
       <Button as="a" href="/login" colorScheme="green" variant="solid">
         Prisijungti

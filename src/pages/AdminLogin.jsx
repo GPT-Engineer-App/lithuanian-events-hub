@@ -19,7 +19,7 @@ const AdminLogin = () => {
     if (storedAdmin && storedAdmin.email === emailInput && storedAdmin.password === passwordInput) {
       navigate("/");
     } else {
-      alert("Admin login failed: Incorrect credentials");
+      alert("Administratoriaus prisijungimas nepavyko: neteisingi prisijungimo duomenys");
     }
   };
 
@@ -27,15 +27,15 @@ const AdminLogin = () => {
     <Box>
       <VStack spacing={4} as="form" onSubmit={handleAdminLogin}>
         <FormControl id="email" isRequired>
-          <FormLabel>Email address</FormLabel>
+          <FormLabel>El. pašto adresas</FormLabel>
           <Input type="email" />
         </FormControl>
         <FormControl id="password" isRequired>
-          <FormLabel>Password</FormLabel>
+          <FormLabel>Slaptažodis</FormLabel>
           <Input type="password" />
         </FormControl>
         <Button type="submit" colorScheme="blue" width="full">
-          Admin Login
+          Administratoriaus Prisijungimas
         </Button>
       </VStack>
     </Box>

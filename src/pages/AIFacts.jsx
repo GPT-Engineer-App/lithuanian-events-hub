@@ -12,10 +12,10 @@ const AIFacts = () => {
   return (
     <Box p={4}>
       <Text fontSize="xl" mb={4}>
-        Interesting Facts about Artificial Intelligence
+        Įdomūs faktai apie dirbtinį intelektą
       </Text>
       <Button onClick={goToAIPage} colorScheme="blue">
-        Learn More
+        Sužinoti daugiau
       </Button>
       {/* Content can be populated here with facts about AI */}
     </Box>
