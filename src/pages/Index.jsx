@@ -4,7 +4,7 @@ import { FaPaypal, FaComments, FaEnvelope } from "react-icons/fa";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Naujienos";
+    document.title = "Naujienų Portalas - www.naujienu-portalas.lt";
   }, []);
 
   return (
