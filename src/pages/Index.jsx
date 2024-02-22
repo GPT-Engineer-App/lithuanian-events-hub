@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { VStack, Heading, Button, Text, Link } from "@chakra-ui/react";
 import { FaPaypal, FaComments, FaEnvelope } from "react-icons/fa";
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "Naujienos";
+  }, []);
+
   return (
     <VStack spacing={4} align="stretch">
       <Heading as="h1" size="2xl" textAlign="center">
