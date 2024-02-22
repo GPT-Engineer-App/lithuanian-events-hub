@@ -13,9 +13,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route exact path="/" element={<Index />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/admin-login" element={<AdminLogin />} />
+
         <Route path="/ai-facts" element={<AIFacts />} />
         <Route path="/ai-details" element={<AIDetails />} />
       </Routes>

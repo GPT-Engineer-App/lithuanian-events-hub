@@ -8,15 +8,7 @@ const Navigation = () => {
         <Link as={RouterLink} to="/" m="2">
           Pradžia
         </Link>
-        <Link as={RouterLink} to="/register" m="2">
-          Registracija
-        </Link>
-        <Link as={RouterLink} to="/login" m="2">
-          Prisijungti
-        </Link>
-        <Link as={RouterLink} to="/admin-login" m="2">
-          Administratoriaus Prisijungimas
-        </Link>
+
         <Link as={RouterLink} to="/ai-facts" m="2">
           AI Faktai
         </Link>
