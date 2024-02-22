@@ -14,12 +14,6 @@ const Index = () => {
       </Heading>
 
       <Text textAlign="center">Norėdami prisidėti prie mūsų, prašome prisijungti arba užsiregistruoti.</Text>
-      <Button as="a" href="/register" colorScheme="blue" variant="solid">
-        Užsiregistruoti
-      </Button>
-      <Button as="a" href="/login" colorScheme="green" variant="solid">
-        Prisijungti
-      </Button>
     </VStack>
   );
 };

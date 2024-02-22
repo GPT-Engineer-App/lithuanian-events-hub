@@ -49,9 +49,6 @@ function Register() {
           <FormLabel>Slaptažodis</FormLabel>
           <Input type="password" />
         </FormControl>
-        <Button type="submit" colorScheme="blue">
-          Užsiregistruoti
-        </Button>
       </VStack>
     </Box>
   );

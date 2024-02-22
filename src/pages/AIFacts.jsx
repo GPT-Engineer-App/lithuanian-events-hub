@@ -14,9 +14,7 @@ const AIFacts = () => {
       <Text fontSize="xl" mb={4}>
         Įdomūs faktai apie dirbtinį intelektą
       </Text>
-      <Button onClick={goToAIPage} colorScheme="blue">
-        Sužinoti daugiau
-      </Button>
+
       {/* Content can be populated here with facts about AI */}
     </Box>
   );
