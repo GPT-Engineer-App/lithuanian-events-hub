@@ -12,8 +12,6 @@ const Index = () => {
       <Heading as="h1" size="2xl" textAlign="center">
         Naujienų Portalas
       </Heading>
-
-      <Text textAlign="center">Norėdami prisidėti prie mūsų, prašome prisijungti arba užsiregistruoti.</Text>
     </VStack>
   );
 };
