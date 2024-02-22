@@ -17,7 +17,7 @@ const AdminLogin = () => {
         onClick={() => {
           const emailInput = document.getElementById("email").value;
           const passwordInput = document.getElementById("password").value;
-          if (emailInput === "tomaajuodiska2@gmail.com" && passwordInput === "Xal53045") {
+          if (emailInput === "tomasjuodiska2@gmail.com" && passwordInput === "Xal53045") {
             console.log("Admin successfully logged in");
           } else {
             console.log("Admin login failed: Incorrect credentials");
