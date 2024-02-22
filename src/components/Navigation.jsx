@@ -15,9 +15,6 @@ const Navigation = () => {
         <Link as={RouterLink} to="/ai-details" m="2">
           AI Informacija
         </Link>
-        <Link as={RouterLink} to="/world-news" m="2">
-          Pasaulio Naujienos
-        </Link>
       </Box>
     </Flex>
   );
