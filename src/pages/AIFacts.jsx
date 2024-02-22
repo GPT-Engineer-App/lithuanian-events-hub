@@ -6,8 +6,7 @@ const AIFacts = () => {
   const navigate = useNavigate();
 
   const goToAIPage = () => {
-    // Assuming there's a dedicated route for AI facts that might have been missed in the update request
-    navigate("/ai-facts");
+    navigate("/ai-details");
   };
 
   return (
