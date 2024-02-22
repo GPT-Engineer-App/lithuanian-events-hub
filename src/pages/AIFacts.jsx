@@ -15,7 +15,19 @@ const AIFacts = () => {
         Įdomūs faktai apie dirbtinį intelektą
       </Text>
 
-      {/* Content can be populated here with facts about AI */}
+      <Text as="p" mb={2}>
+        Ar žinojote, kad dirbtinis intelektas jau gali nuspėti orų pokyčius su didesniu tikslumu nei tradiciniai metodai?
+      </Text>
+      <Text as="p" mb={2}>
+        Dirbtinis intelektas yra naudojamas medicinoje, padedant diagnozuoti ligas nuo vėžio iki retų genetinių sutrikimų.
+      </Text>
+      <Text as="p" mb={2}>
+        Šachmatų programos, kurios naudoja dirbtinį intelektą, gali nugalėti pasaulio šachmatų čempionus.
+      </Text>
+      <Text as="p" mb={2}>
+        AI technologijos yra svarbus elementas autonominių automobilių vystyme, leidžiančių transporto priemonėms važiuoti be vairuotojo įsikišimo.
+      </Text>
+      <Text as="p">Kasdien naudojame dirbtinį intelektą, net to nežinodami – nuo asmeninių asistentų iki rekomendacijų sistemos internetinėse parduotuvėse.</Text>
     </Box>
   );
 };
