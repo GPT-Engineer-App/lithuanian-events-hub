@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <VStack spacing={4} align="stretch">
       <Heading as="h1" size="2xl" textAlign="center">
-        Lietuvos Renginių Portalas
+        Naujienos
       </Heading>
 
       <Text textAlign="center">Norėdami prisidėti prie mūsų, prašome prisijungti arba užsiregistruoti.</Text>
