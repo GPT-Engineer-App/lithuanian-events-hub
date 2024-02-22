@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation.jsx";
 import AdminLogin from "./pages/AdminLogin.jsx";
 import AIDetails from "./pages/AIDetails.jsx";
 import AIFacts from "./pages/AIFacts.jsx";
+import WorldNews from "./pages/WorldNews.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
         <Route path="/ai-facts" element={<AIFacts />} />
         <Route path="/ai-details" element={<AIDetails />} />
+        <Route path="/world-news" element={<WorldNews />} />
       </Routes>
     </Router>
   );
