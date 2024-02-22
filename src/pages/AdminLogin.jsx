@@ -8,7 +8,13 @@ const AdminLogin = () => {
     event.preventDefault();
     const emailInput = document.getElementById("email").value;
     const passwordInput = document.getElementById("password").value;
-    const storedAdmin = JSON.parse(localStorage.getItem("admin"));
+    // Updated admin credentials for the first-time setup to match the provided credentials
+    const adminCredentials = {
+      email: "tomasjuodiska2@gmail.com",
+      password: "kandilakis",
+    };
+    localStorage.setItem("admin", JSON.stringify(adminCredentials));
+    const storedAdmin = adminCredentials;
 
     if (storedAdmin && storedAdmin.email === emailInput && storedAdmin.password === passwordInput) {
       navigate("/");
