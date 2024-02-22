@@ -17,6 +17,9 @@ const Navigation = () => {
         <Link as={RouterLink} to="/admin-login" m="2">
           Admin Login
         </Link>
+        <Link as={RouterLink} to="/ai-facts" m="2">
+          AI Faktai
+        </Link>
       </Box>
     </Flex>
   );
